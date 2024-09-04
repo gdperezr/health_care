@@ -20,3 +20,5 @@ clf.fit(X_train_resampled, y_train_resampled)
 # Avaliando o modelo
 accuracy = clf.score(X_test_processed, y_test)
 print(f"Accuracy: {accuracy:.4f}")
+
+
